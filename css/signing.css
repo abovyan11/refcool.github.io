@@ -1,0 +1,177 @@
+*{
+	margin: 0px;
+	padding: 0px;
+    box-sizing:inherit;
+
+}
+.bod{
+	width: 100%;
+	height: 100vh;
+	background-color: #CBFFBB;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:bottom center;
+    position: fixed;
+
+}
+.icon{
+			
+	position: absolute;
+    width: 100%;
+
+}
+.ic_size{
+	height: 45px;
+	margin-left: 50px;
+	margin-bottom: 10px;
+	margin-top: 13px;
+}
+.himn{
+	border: 1px solid #BDBDBD;
+	background-color: white;
+	width:600px;
+	margin-right: auto;
+	margin-left:auto;
+	border-bottom-right-radius: 80px;	
+	border-bottom-left-radius: 80px;
+	position: relative;
+	margin-bottom: 10px;
+	border-top: none;
+}
+.main{
+	width: 100%;
+	height: 100vh;
+
+z-index: 2;
+
+
+}
+.all-input{
+	width: 100%;
+	max-width: 450px;
+	margin-left: auto;
+	margin-top:auto;
+	margin-right: auto;
+	position: relative;
+	margin-bottom: 30px;
+	min-width: 100px;
+	}
+.input-icon-email{
+	background:url(../images/Email-icon.png) 0px 0px no-repeat;
+	background-size: cover;
+	width: 30px;
+	height: 27px;
+	position: absolute;
+	top: 7px;
+	left:12px;
+
+	
+}
+.input-icon-password{
+	background:url(../images/s-06.png) 0px 0px no-repeat;
+	background-size: cover;
+	width: 22px;
+	height: 27px;
+	position: absolute;
+	top: 8px;
+	left:15px;
+	
+}
+input{
+	border-radius: 6px;
+	border:1.5px solid #BDBDBD;
+}
+.all-input input[type="text"], .all-input input[type="password"], .all-input input[type="email"]{
+	padding-left: 50px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-radius: 6px;
+	outline-color: #00FF30;
+	transition: border 0.2s linear, box-shadow 0.2s linear;
+
+}
+.input-icon-validation{
+float: right;
+position: absolute;
+left:auto;
+right: 6px;
+margin-left: 10px;
+}
+input[type="text"], input[type="password"]{
+	text-align: start;
+	font-size: 1.1em;
+	font-weight: 400;
+
+}
+.knopka{
+
+	
+	background-color:#0084FF;
+	color:white;
+	padding: 10px 60px 10px 60px;
+	border-radius: 20PX;
+	border-style: none;
+	font-size: 1.1em;
+	outline: none;
+	transition: all .1s ease-in-out;
+}
+.knopka:hover{
+		background-color: #0265C2;
+		transition: all .1s ease-in-out;
+}
+.google-ic{
+	height: 25px;
+	margin: 0px 15px 0px -5px;
+
+}
+.fb-ic{
+	height: 25px;
+	margin: 0px 10px 0px 3px;
+
+}
+.place{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+.google-btn{
+	padding: 10px 0px 10px 0px;
+	background-color: #FF9000;
+	width: 250px;
+	border-color: none;
+	color:white;
+	font-size: 1em;
+	text-decoration: none;
+	text-align: center;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 20px;
+}
+.fb-btn{
+	padding: 10px 0px 10px 0px;
+	background-color: #00D7F1;
+	width: 250px;
+	border-color: none;
+	color:white;
+	font-size: 1em;
+	text-decoration: none;
+	text-align: center;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 20px;
+}
+.forgot{
+	color:#00A2FF;
+	text-decoration: none;
+	font-size: .9em;
+	margin-top: 10px;
+	margin-bottom: 5px;
+
+}
+.remember{
+		margin-top: 20px;
+}
